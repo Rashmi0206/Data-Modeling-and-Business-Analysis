@@ -52,6 +52,23 @@ Construct an email or slack message that is understandable to a product or busin
 
 ## Solution:
 
+Hi Team.
+
+Happy Monday!
+Below is the answer I am getting for below requests. Happy to discuss in detail in the weekly meeting.Please feel free to reah out to me if you have followup questions in the meantime.
+During the analysis, I came acroos few data quality issues which I feel are important to discuss with the group.
+I noticed a lot of barcodes in the receipt don't match with the brands barcode. This needs to be looked at ASAP since its a critical key for us to match receipts with brands.
+Below are few other data quality issues I came across:
+* Brandcode issues:
+  * There are 54 Brand Code that dont show the brand code value, instead show barcode.
+  * Approximately 234 brandcodes are missing
+Resolution- I need help from product catalog team to get the correct values. I can send list of barcode for these brands the team
+* Users missing in Users table:
+  * There are about 117 users that have receipts but are missing in Users table. 
+Resolution: I can send this list to product support team. This may be related to bug in the app that may be having issues in user registration.
+
+ From scalablity perspective, we may need to start looking at better ways to structure the receipt_item_list as I am noticing receipts with a lot of items. With our growing customer engagement, this table may become very heavy pretty soon and we may need to add more resources to our DB cluster.
+
 
 # About The Data
 ## Receipts Data Schema
