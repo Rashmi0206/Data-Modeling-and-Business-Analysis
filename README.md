@@ -27,6 +27,8 @@ Note: When creating your data model be mindful of the other requests being made 
 
 ## Solution
 
+Please note: Since I was not provided with a sql engine or resource, I am performing the analysis in sql in the notebook itself.
+
 Based on the data issues with barcode field in the receipt_item_list table that is causing problem in joining with brands table ( this is explained in detail in part 2 of [data processing and sql queries](https://github.com/Rashmi0206/Data-Modeling-and-Business-Analysis/blob/main/Data%20processing%20and%20Sql%20Queries.ipynb) notebook), I decided to work on below questions:
 
 * When considering average spend from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater?
