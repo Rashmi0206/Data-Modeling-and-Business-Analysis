@@ -1,16 +1,11 @@
 # Analysis
-In this exercise you will:
-Demonstrate how you reason about data and how you communicate your understanding of a specific data set to others.
-
-What are the requirements?
-Review unstructured JSON data and diagram a new structured relational data model
-Generate a query that answers a predetermined business question
-Generate a query to capture data quality issues against the new structured relational data model
-Write a short email or Slack message to the business stakeholder
-Please let us know which SQL dialect you are using and include any code, notes, etc.. that helped you develop your answers. Showing your work can only help you!
 
 First: Review Existing Unstructured Data and Diagram a New Structured Relational Data Model
-Review the 3 sample data files provided below. Develop a simplified, structured, relational diagram to represent how you would model the data in a data warehouse. The diagram should show each table’s fields and the joinable keys. You can use pencil and paper, readme, or any digital drawing or diagramming tool with which you are familiar. If you can upload the text, image, or diagram into a git repository and we can read it, we will review it!
+
+Review the 3 sample data files provided below. Develop a simplified, structured, relational diagram to represent how you would model the data in a data warehouse. The diagram should show each table’s fields and the joinable keys. 
+
+
+
 
 Second: Write a query that directly answers a predetermined question from a business stakeholder
 Write a SQL query against your new structured relational data model that answers one of the following bullet points below of your choosing. Commit it to the git repository along with the rest of the exercise.
