@@ -41,6 +41,8 @@ Commit your code and findings to the git repository along with the rest of the e
 
 ## Solution
 
+Please find the solution in Part 3 of [data processing and sql queries](https://github.com/Rashmi0206/Data-Modeling-and-Business-Analysis/blob/main/Data%20processing%20and%20Sql%20Queries.ipynb) notebook.
+
 # 4.Communicate with Stakeholders
 Construct an email or slack message that is understandable to a product or business leader who isn’t familiar with your day to day work. This part of the exercise should show off how you communicate and reason about data with others. Commit your answers to the git repository along with the rest of your exercise.
 
