@@ -25,6 +25,7 @@ Note: When creating your data model be mindful of the other requests being made 
 * Which brand has the most spend among users who were created within the past 6 months?
 * Which brand has the most transactions among users who were created within the past 6 months?
 
+## Solution
 
 # 3.Evaluate Data Quality Issues in the Data Provided
 Using the programming language of your choice (SQL, Python, R, Bash, etc...) identify at least one data quality issue. We are not expecting a full blown review of all the data provided, but instead want to know how you explore and evaluate data of questionable provenance.
