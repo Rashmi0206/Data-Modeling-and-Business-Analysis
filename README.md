@@ -6,9 +6,9 @@ Review the 3 sample data files provided below. Develop a simplified, structured,
 
 ## Solution:
 
-I have ingested the 3 data files and processed the data in below notebook.
+I have ingested the 3 data files and processed the data in Part 1 of below notebook.
 
-https://github.com/Rashmi0206/Data-Modeling-and-Business-Analysis/blob/main/Data%20processing%20and%20Sql%20Queries.ipynb
+[Part 1] https://github.com/Rashmi0206/Data-Modeling-and-Business-Analysis/blob/main/Data%20processing%20and%20Sql%20Queries.ipynb
 
 Based on the data dictionary provided and the structure of the files, I have created 4 tables that can be joined based on below ER diagram.
 
