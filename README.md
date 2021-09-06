@@ -4,7 +4,7 @@ First: Review Existing Unstructured Data and Diagram a New Structured Relational
 
 Review the 3 sample data files provided below. Develop a simplified, structured, relational diagram to represent how you would model the data in a data warehouse. The diagram should show each table’s fields and the joinable keys. 
 
-
+![alt text](https://github.com/Rashmi0206/User-Analysis/blob/main/Database%20ER%20diagram%20(crow's%20foot).png?raw=true)
 
 
 Second: Write a query that directly answers a predetermined question from a business stakeholder
