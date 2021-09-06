@@ -6,7 +6,7 @@ Review the 3 sample data files provided below. Develop a simplified, structured,
 
 ## Solution:
 
-I have ingested the 3 data files and processed the data in Part 1 of [data processing and sql queries](https://github.com/Rashmi0206/Data-Modeling-and-Business-Analysis/blob/main/Data%20processing%20and%20Sql%20Queries.ipynb) notebook.
+I have ingested the 3 data files and processed the data in part 1 of [data processing and sql queries](https://github.com/Rashmi0206/Data-Modeling-and-Business-Analysis/blob/main/Data%20processing%20and%20Sql%20Queries.ipynb) notebook.
 
 Based on the data dictionary provided and the structure of the files, I have created 4 tables that can be joined based on below ER diagram.
 
@@ -26,6 +26,13 @@ Note: When creating your data model be mindful of the other requests being made 
 * Which brand has the most transactions among users who were created within the past 6 months?
 
 ## Solution
+
+Based on the data issues with barcode field in the receipt_item_list table that is causing problem in joining with brands table ( this is explained in detail in part 2 of [data processing and sql queries](https://github.com/Rashmi0206/Data-Modeling-and-Business-Analysis/blob/main/Data%20processing%20and%20Sql%20Queries.ipynb) notebook), I decided to work on below questions:
+
+* When considering average spend from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater?
+* When considering total number of items purchased from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater?
+
+Please find the solution in Part 2 of [data processing and sql queries](https://github.com/Rashmi0206/Data-Modeling-and-Business-Analysis/blob/main/Data%20processing%20and%20Sql%20Queries.ipynb) notebook.
 
 # 3.Evaluate Data Quality Issues in the Data Provided
 Using the programming language of your choice (SQL, Python, R, Bash, etc...) identify at least one data quality issue. We are not expecting a full blown review of all the data provided, but instead want to know how you explore and evaluate data of questionable provenance.
